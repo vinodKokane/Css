@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display 2nd image on the top of both image</title>
+    <link rel="icon" href="art-gallery-icon-13989.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+
+        .First {
+            top: 0;
+            left: 0;
+            border: 2px solid black;
+            border-radius: 20px 30px;
+        }
+
+        .Second {
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+            border: 2px solid black;
+            border-radius: 20px 30px;
+        }
+
+        .Third {
+            top: 100px;
+            left: 100px;
+            border: 2px solid black;
+            border-radius: 20px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="photo-1554299517-61723ccf1ea5.jfif" alt="" class="First">
+    <img src="pexels-владимир-васильев-4565005.jpg" alt="" class="Second">
+    <img src="HD-wallpaper-a-bench-in-park-glow-sun-grass-sunny-yellow-beautiful-leaves-green-flowers-pink-light-golden-bench-lonely-park-tree-peaceful-summer-blossoms-garden-nature-blooming.jpg"
+        alt="" class="Third">
+</body>
+
+</html>
